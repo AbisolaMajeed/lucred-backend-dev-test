@@ -1,5 +1,5 @@
 
-const app = require("../server");
+const app = require("../api/index");
 const supertest = require("supertest");
 const request = supertest(app);
 
