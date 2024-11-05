@@ -45,3 +45,8 @@ Run the following command to execute the tests:
 ```sh
 npm test
 ```
+
+#### 6. Test the deployment
+  - GET all products: https://lucred-backend-dev-test.vercel.app/api/products
+  - POST a new product: ``` https://lucred-backend-dev-test.vercel.app/api/products ```
+
