@@ -15,6 +15,10 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+app.get('/', (req, res) => {
+    res.send('Welcome to the Lucred Backend Dev Test API! Access products at /api/products');
+});
+
 app.get('/api/products', (req, res) => {
   res.json(products);
 });
